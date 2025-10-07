@@ -1,13 +1,11 @@
-window.alert("Zoom al 50% para mejor exp");
-alert("Zoom al 50% para mejor exp");
-
-function gridFlex () {
-    let gridToFlexBox = document.getElementById("gridToFlexBox");
-    if (gridToFlexBox.className === "gridBox") {
-        gridToFlexBox.className = "flexBox";
+function ChangeText () {
+    let changed = document.getElementById("changed");
+    if (changed.className === "textone") {
+        (changed.className === "texttwo")
     }
-    else { gridToFlexBox.className = "gridBox";
+    else {
+        changed.className = "textone";
     }
 }
 
-document.getElementById("gridToFlexBox").onclick = gridFlex;
+document.getElementById(changed).onclick = ChangeText;

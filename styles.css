@@ -1,30 +1,20 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #808080;
 }
 
-.gridBox {
-    display: grid;
-    border: 10px solid black;
-    width: 900px;
-    height: 900px;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, 300px);
+.Alaing_Container {
+    text-align: center;
+    color: #dedede;
 }
 
-.gridFlexItem {
-    font-size: 128px;
-    color: white;
-    background-color: red;
-    box-sizing: border-box;
-    border: 8px solid black;
-    cursor: pointer;
+.Special_Name {
+    color: #ffffff;
 }
 
-.flexBox {
-    display: flex;
-    space-between: evenly;
-    width: 900px;
-    min-height: 900px;
+.Important_Words {
+    color: #000000;
+}
+
+.The_Different {
+    color: #ffffff;
 }
